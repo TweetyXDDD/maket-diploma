@@ -1,3 +1,72 @@
+
 body{
-    background-color: aqua;
+    max-width: 1200px;
+    margin: 35px auto 0;
+    font-size: 16px;
+}
+.header-container{
+    display: flex;
+}
+
+.toggle .tabs {
+  margin-top: 25px;
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
+}
+.toggle .tabs .tab {
+  float: left;
+  background: white;
+  color: #777777;
+  height: 31px;
+  margin: 2px 8px 0;
+  padding: 0 8px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+.toggle .tabs .tab.active {
+  color: #dd4b39;
+  border-bottom: 3px solid #dd4b39;
+}
+.toggle .panels .panel {
+  padding: 20px 10px;
+  display: none;
+}
+.toggle .panels .panel:first-child {
+  display: block;
+}
+table {
+    background: #fafafa;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+table thead {
+    border: 1px solid #222;
+    border-right: 0;
+    background: #333;
+    cursor: pointer;
+}
+table thead tr th {
+    color: #fff;
+    padding: 10px;
+    border-right: 1px solid #222;
+}
+table tbody {
+    border-left: 1px solid #ccc;
+}
+table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+table tbody tr:hover{
+    background: #EBE2FA;
+}
+table tbody tr td {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+table tbody tr td:last-child{
+    border-right: none;
 }
