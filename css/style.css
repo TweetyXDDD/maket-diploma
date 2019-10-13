@@ -1,13 +1,116 @@
 
 body{
-    max-width: 1200px;
-    margin: 35px auto 0;
+    margin: 0;
+
+}
+section{
+    max-width: 65vw;
+    margin: 0 auto;
     font-size: 16px;
+    background-color: #fff;
+    padding: 25px;
+}
+footer{
+    margin: 35px 0;
+}
+p{
+    line-height: 1.5;
+}
+header,
+footer {
+    background-color: #2b2a2b;
+}
+footer{
+    padding: 35px 0;
+}
+nav {
+    padding: 0 10vw;
 }
 .header-container{
     display: flex;
 }
+.header-block div:first-child{
+    display: flex;
+    align-items: center;
+}
+.header-block div:first-child p{
+    padding-left: 25px;
+}
+.header-right p{
+    margin: 5px 0;
+}
+.header-right{
+    text-align: right;
+}
+.header-block div img{
+     width: auto;
+     max-height: 50px;
+ }
+.header-block div p{
+    color: #e63823;
+    font-size: 24px;
+}
+.header-right span{
+    display: block;
+    color: #fff;
+    padding: 5px 0;
+}
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10vw;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    background-color: #2b2a2b;
+    margin:0;
+}
+.menu li {
+    padding: 10px 35px;
+}
+.menu li a{
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      font-size: 18px;
+  }
+.menu li:hover {
+    background-color: #e63823;
+}
 
+.coppyright{
+    text-align: center;
+}
+.coppyright p{
+    margin: 5px;
+    line-height: 1;
+    color: #fff;
+}
+img{
+    width: 100%;
+}
+.company{
+    display: flex;
+}
+.company div{
+    width: 20%;
+    padding: 0 15px;
+}
+.company-link{
+    float: right;
+}
+.company-link a{
+    text-decoration: none;
+    color: #e63823;
+}
+
+
+
+/*table*/
 .toggle .tabs {
   margin-top: 25px;
   width: 100%;
